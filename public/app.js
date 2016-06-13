@@ -1,5 +1,5 @@
 window.onload = function(){
-  var PRIV_KEY = "91a622c71829b786e82a6cf458061180edad8b4d";
+  var PRIV_KEY = "";
   var API_KEY = "51966208f38f0353c12bbbd842711fcb";
   var ts = new Date().getTime();
   var url = "http://gateway.marvel.com:80/v1/public/characters?series=20432&apikey=" + API_KEY;
